@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <-- YOUR NAME --> | CAREER PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="name">
+            <a href="/index.html">
+                <h2 style="color: white;">
+                    <-- YOUR NAME -->
+                </h2>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <a href="/index.html" class="icon"> 
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <div class="tooltip-text">
+                HOME
+            </div>
+        </div>
+
+        <div class="icon-container">
+            <a href="#aboutme" class="icon"> 
+                <i class="fa-solid fa-address-card"></i>
+            </a>
+            <div class="tooltip-text">
+                ABOUT
+            </div>
+        </div>
+
+        <div class="icon-container">
+            <a href="#contact" class="icon"> 
+                <i class="fa-solid fa-address-book"></i>
+            </a>
+            <div class="tooltip-text">
+                CONTACT
+            </div>
+        </div>
+    </div>
+
+    <div class="mainbody">
+        <div>
+            <img src="#" alt="LOGO" title="LOGO" class="logo">
+        </div>
+        <div class="main-body-logo-text">
+            <div class="name1">
+                <h2>
+                    Hi!, I'm <-- YOUR NAME -->
+                </h2>
+            </div>
+            <div class="name2">
+                <h1>
+                    I'm Programmer
+                </h1>
+            </div>
+            <div class="know">
+                <h3>
+                    Languages I know
+                </h3>
+            </div>
+            <div class="list">
+                <ul>
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> JAVASCRİPT </li>
+                    <li> PYTHON </li>
+                    <li> C++ </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="shortcut">
+            <div class="icon-container">
+                <a href="#" class="icon"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <div class="tooltip-text">
+                    İNSTAGRAM
+                </div>
+            </div>
+
+            <div class="icon-container">
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <div class="tooltip-text">
+                    GiTHUB
+                </div>
+            </div>
+
+            <div class="icon-container">
+                <a href="#" class="icon"> 
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <div class="tooltip-text">
+                    LiNKEDİN 
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mainted-about-main-body">
+        <div class="about-main-body">
+            <div class="about-text">
+                <h2 id="aboutme">
+                    ABOUT ME
+                </h2>
+            </div>
+            <div class="explanation">
+                <h1>
+                    You can find information about me here
+                </h1>
+            </div>
+            <div class="about-main-body-button">
+                <div class="buttons">
+                    <button onclick="switchContent(0)">MY DIPLOMAS</button>
+                    <button onclick="switchContent(1)">MY PROJECT</button>
+                    <button onclick="switchContent(2)"> LANGUAGES I KNOW</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content active" id="content0">
+                    <div class="contents1">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                    </div>
+                </div>
+
+                <div class="content" id="content1">
+                    <div class="contents2">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                        <img src="#" alt="#" class="diplomas">
+                    </div>
+                </div>
+
+                <div class="content" id="content2">
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="ikon-text">
+                            PYTHON
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="ikon-text">
+                            HTML
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="ikon-text">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="ikon-text">
+                            JAVASCRİPT
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-solid fa-c"></i>
+                        </div>
+                        <div class="ikon-text">
+                            C
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+                        <div class="ikon-text">
+                            PHP
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-golang"></i>
+                        </div>
+                        <div class="ikon-text">
+                            GO
+                        </div>
+                    </div>
+                    <div class="ikon-body">
+                        <div class="ikon">
+                            <i class="fa-brands fa-rust"></i>
+                        </div>
+                        <div class="ikon-text">
+                            rust
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-text">
+            <h3>
+                If there is no cover photo for your project in the project section, you can put the link of the platform <br>where you published your projects as a hyperlink in the text and shape the text in your CSS file accordingly.
+            </h3>
+        </div>
+    </div>
+
+    <div class="main-body-contact">
+        <div class="main-body-cantact-text">
+            <h2 id="contact">
+                TO CONTACT ME
+            </h2>
+        </div>
+        <div class="main-body-cantact-link" style="color: white;">
+            <a href="#" class="main-body-cantact-hyper-links"> FACEBOOK </a>
+            <a href="#" class="main-body-cantact-hyper-links"> GİTHUB </a>
+            <a href="#" class="main-body-cantact-hyper-links"> İNSTAGRAM </a>
+            <a href="#" class="main-body-cantact-hyper-links"> LİNKEDİN </a>
+            <a href="#" class="main-body-cantact-hyper-links"> MAİL </a>
+            <a href="#" class="main-body-cantact-hyper-links"> X </a>
+        </div>
+        <div class="copyright">
+            <h2>
+                COPYRİGHT (C) 2025 <-- YOUR NAME -->
+            </h2>
+        </div>
+    </div>
+
+</body>
+</html>
